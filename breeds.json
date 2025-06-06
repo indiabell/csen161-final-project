@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "name": "Golden Retriever",
+      "traits": ["friendly", "family-oriented", "large", "shedding"],
+      "image": "images/golden.jpg",
+      "shelters": [
+        {"name": "Happy Tails", "url": "https://happytails.org"}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Poodle",
+      "traits": ["intelligent", "family-oriented", "low-shedding"],
+      "image": "images/poodle.jpg",
+      "shelters": [
+        {"name": "Smart Paws Rescue", "url": "https://smartpaws.org"}
+      ]
+    }
+  ]
+  
