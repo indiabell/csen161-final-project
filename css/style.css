@@ -1,0 +1,118 @@
+/* Google Font: Instrument Sans */
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600&display=swap');
+
+:root {
+  --color-dark: #333333;
+  --color-muted: #AEB4B5;
+  --color-primary: #75849B;
+  --color-accent: #9CB3D6;
+  --color-background: #CAE6EC;
+}
+
+body {
+  font-family: 'Instrument Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-background);
+  color: var(--color-dark);
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  color: var(--color-dark);
+}
+
+button {
+  font-family: inherit;
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--color-accent);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="radio"],
+select {
+  font-family: inherit;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid var(--color-muted);
+  border-radius: 4px;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  max-width: 600px;
+  margin: 30px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--color-primary);
+  padding: 15px;
+}
+
+.navbar a {
+  color: white;
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  color: var(--color-accent);
+}
+
+/* Banner / Hero */
+.banner {
+  background-color: var(--color-background);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  font-size: 1.2rem;
+  color: var(--color-muted);
+}
+
+/* Quiz Progress Bar (optional) */
+.progress {
+  background-color: var(--color-muted);
+  border-radius: 8px;
+  overflow: hidden;
+  height: 10px;
+  margin-bottom: 20px;
+}
+
+.progress .bar {
+  height: 100%;
+  background-color: var(--color-primary);
+  width: 0%; /* Will be set inline with PHP */
+  transition: width 0.3s ease;
+}
