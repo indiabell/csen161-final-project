@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz Step {{step}}</title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <?php include 'templates/navbar.php'; ?>
+    <form class="quiz-form" method="POST">
+      <h2>Step {{step}} of {{total}}</h2>
+      <p>{{question}}</p>
+      {{options}}
+      <button class="quiz-button" type="submit">Continue</button>
+    </form>
+  </body>
+</html>
