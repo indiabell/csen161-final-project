@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+}
+
+.favorites-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin: 50px;
+}
+
+.tile {
+    flex: 0 0 300px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+img {
+    margin: 20px;
+    border-radius: 30px;
+}
