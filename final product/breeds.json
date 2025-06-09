@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Golden Retriever",
+    "traits": ["friendly", "family-oriented", "large", "shedding"],
+    "image": "images/golden.jpg",
+    "about": "Golden Retrievers are known for their gentle temperament and loyalty. They're great with kids and thrive in active families.",
+    "shelters": [
+      {"name": "Golden Bond Rescue", "url": "https://goldenbondrescue.com/golden-retriever-rescue/"}
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Poodle",
+    "traits": ["intelligent", "family-oriented", "low-shedding"],
+    "image": "images/poodle.jpg",
+    "about": "Poodles are highly intelligent, making them easy to train. They come in multiple sizes and are great for people with allergies.",
+    "shelters": [
+      {"name": "NorCal Poodle Rescue", "url": "https://www.norcalpoodlerescueadoption.com"}
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Labrador Retriever",
+    "traits": ["friendly", "family-oriented", "large", "active", "trainable"],
+    "image": "images/labrador.jpg",
+    "about": "Labradors are playful and eager to please. They make excellent companions for active households and love water.",
+    "shelters": [
+      {"name": "Central California Labrador Retriever Rescue", "url": "https://www.cc-labrescue.org"}
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Shih Tzu",
+    "traits": ["small", "low-energy", "easygoing", "low-shedding"],
+    "image": "images/shihtzu.jpg",
+    "about": "Shih Tzus are affectionate lap dogs that enjoy short walks and lots of indoor time. They’re perfect for apartment living.",
+    "shelters": [
+      {"name": "Tzu Zoo Rescue", "url": "https://tzuzoorescue.com"}
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Siberian Husky",
+    "traits": ["high-energy", "adventurous", "independent", "large", "high-maintenance"],
+    "image": "images/husky.jpg",
+    "about": "Siberian Huskies are strikingly beautiful and full of energy. They need plenty of exercise and a secure yard to thrive.",
+    "shelters": [
+      {"name": "Bay Area Siberian Husky Club", "url": "https://bayareasiberian.org"}
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Cavalier King Charles Spaniel",
+    "traits": ["small", "calm", "family-oriented", "friendly", "easygoing"],
+    "image": "images/cavalier.jpg",
+    "about": "Cavalier King Charles Spaniels are gentle, affectionate, and get along with everyone. They’re ideal for seniors or families.",
+    "shelters": [
+      {"name": "Cavalier Rescue USA", "url": "https://www.cavalierrescueusa.org"}
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Border Collie",
+    "traits": ["intelligent", "high-energy", "medium", "trainable", "strong-leader"],
+    "image": "images/bordercollie.jpg",
+    "about": "Border Collies are extremely smart and driven. They excel in agility and herding, and they need daily mental stimulation.",
+    "shelters": [
+      {"name": "Northern California Border Collie Rescue & Adoptions", "url": "https://norcalbcrescue.org"}
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Basset Hound",
+    "traits": ["low-energy", "medium", "easygoing", "quiet", "shedding"],
+    "image": "images/bassethound.jpg",
+    "about": "Basset Hounds are laid-back scent hounds with a love for lounging and short walks. They’re great with kids and other pets.",
+    "shelters": [
+      {"name": "Guardian Angel Basset Rescue", "url": "https://bassetrescue.org"}
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Australian Shepherd",
+    "traits": ["active", "adventurous", "medium", "trainable", "moderate-shedding"],
+    "image": "images/aussie.jpg",
+    "about": "Australian Shepherds are energetic and agile. They love to work and need plenty of exercise and a job to stay happy.",
+    "shelters": [
+      {"name": "Aussie Rescue and Placement Helpline", "url": "https://www.aussierescue.org"}
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Chihuahua",
+    "traits": ["small", "independent", "low-maintenance", "loyal"],
+    "image": "images/chihuahua.jpg",
+    "about": "Chihuahuas are tiny but confident dogs. They form strong bonds with their people and are well-suited for city life.",
+    "shelters": [
+      {"name": "Chihuahua Rescue of San Diego County", "url": "https://rescueachi.com"}
+    ]
+  }
+]
